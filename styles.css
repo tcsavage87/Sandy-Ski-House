@@ -1,0 +1,504 @@
+/** CSS Reset **/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin:0; 
+    padding:0; 
+    border:0; 
+    outline:0; 
+    font-size:100%; 
+    vertical-align:baseline; 
+    background:transparent;
+} 
+
+body {
+    line-height: 1;
+}
+
+body p, li {
+    line-height: 1.5 !important;
+}
+
+ol, ul {
+    list-style:none;
+} 
+
+blockquote, q {
+    quotes:none;
+} 
+
+blockquote:before, blockquote:after, q:before, q:after{
+    content:'';content:none;
+} 
+
+:focus{
+    outline:0;
+} 
+
+ins{text-decoration:none;} 
+
+del{text-decoration:line-through;} 
+
+table{border-collapse:collapse; border-spacing:0;}
+
+
+
+
+/** Header styling **/
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    background-color: #fcfcfc;
+    margin: -.5em 0;
+    color: #6699cc;
+    font-size: 400%;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    text-shadow: .02em .02em .01em black;
+    letter-spacing: .08em;
+    word-spacing: .25em;
+}
+
+a#top {
+    text-decoration: none;
+}
+
+
+
+/** Nav and Menu styling **/
+
+nav {
+    text-align: center;
+    background-image: url(Media/Mt%20Millicent%20and%20the%20Millie%20Chair%20banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35em;
+}
+
+.dropbtn {
+    cursor: pointer;
+    display: none;
+    padding: .5em;
+    color: white !important;
+    text-shadow: .05em .05em .35em black;
+}
+
+.dropbtn:hover {
+    color: lightgray !important;
+}
+
+.show {
+    display: block;
+}
+
+nav ul {
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: .2em 0;
+    padding: 1em;
+    font-size: 105%;
+    text-transform: uppercase;
+}
+
+nav ul a {
+    padding: .5em;
+    color: white !important;
+    text-shadow: .05em .05em .35em black;
+}
+
+nav ul a:hover {
+    color: lightgray !important;
+}
+
+a#current {
+    color: darkgrey !important;
+}
+
+/** Body Font **/
+
+body h2, h3, h4, h5, p, li, a, figcaption  {
+    font-family: 'Cabin', sans-serif;
+}
+
+
+
+/** Body Layout and Spacing **/
+
+#border {
+    background-color: gray;
+    margin-bottom: ;
+}
+
+#content {
+    margin: 0 4em 0em 4em;
+    background-color: #fcfcfc;
+}
+
+section {
+    padding: 2em 3em 2em 3em;
+    border-top: gray 3em solid;
+}
+
+section#last {
+    padding-bottom: 1.5em;
+}
+
+
+
+
+/** Header Box Design **/
+
+section header {
+    margin: 0 25% 0 25%;
+    box-shadow: .1em .1em .1em;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 150%;
+    text-shadow: .05em .05em .15em black;
+    letter-spacing: .10em;
+    margin: -2.5em 0 2em 0;
+    padding: 1em 0 1em 0;
+    color: white;
+    height: auto;
+    background-color: #7099bb;/**#6699cc;**/
+}
+
+
+
+/** List markup **/
+
+section ul {
+    margin: 1.5em 0 0 5%;
+}
+
+section ul li {
+    list-style: disc;
+    line-height: 1.25em;
+    padding: .5em;
+}
+
+section p {
+    margin: 1em 0 0 0;
+    line-height: 1.25em;
+}
+
+#first p {
+    text-align: center;
+}
+
+p#for-example {
+    margin-top: 2em;
+    font-weight: bold; 
+}
+
+
+
+
+/** Hyperlink decoration options **/
+
+
+nav a:hover {
+    color: grey;
+}
+
+section a {
+    text-decoration:none;
+    font-weight: bold ;
+}
+
+#content a:link, a:visited {
+    color: #6699cc;
+}
+
+#content a:hover {
+    color: grey;
+}
+
+div#ski-sub {
+    padding: 1.5em 3em 0 1.5em;
+}
+
+div#ski-sub h3 {
+    font-size: 125%;
+}
+
+div#ski-sub p {
+    margin-top: 1em;
+}
+
+
+
+/** Footer markup **/
+
+footer {
+    color: #fcfcfc;
+    font-size: 100%;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+    padding: 1em 0 1em 0;
+    background-color: grey;
+    height: 2em;
+    vertical-align: center;
+    text-align: left;
+}
+
+footer a {
+    color: #80bfff !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white !important;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+
+
+/** Back to top design **/
+
+.back-to-top {
+    font-size: 110%;
+    padding-top: 1.5em;
+    text-align: right;
+}
+
+.back-to-top a:link, a:visited {
+    color: #6699cc;
+}
+
+.back-to-top a:hover {
+    color: grey !important;
+}
+
+
+
+
+/** Google Map browser sizes **/
+
+@media only screen{
+    iframe#medium {
+        display: none;
+    }
+    iframe#small {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    iframe#medium {
+        display: none;
+    }
+    iframe#small {
+        display: block;
+        margin: 3em auto 0 auto;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    iframe#medium {
+        display: block;
+        margin: 3em auto 0 auto;
+
+    }
+    iframe#small {
+        display: none;
+    }
+    
+}
+
+
+/** Mobile Nav Menu **/
+
+@media only screen and (max-width: 780px) {
+    html {
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 250%;
+    }
+    
+    nav {
+        height: 12em;
+        text-align: center;
+        background-image: url(Media/Banner%20Original.JPG);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    div#menu-bar p {
+        display: inline-block;
+        font-size: 125%;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: .5em;
+        border-radius: 5px 5px;
+    }
+    
+    nav ul {
+        margin: 0 auto 0 auto;
+        display: none;
+        z-index: 999;
+        position: relative;
+        background: grey;
+        border: 5px solid #444;
+        border-radius: 4px 4px 4px 4px;
+        width: 45%;
+        opacity: .97;
+    }
+    
+    nav ul a:hover {
+        color: #7099bb !important;
+    }
+    
+    
+    nav ul li, nav a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 0;
+    }
+    
+    #content {
+        margin: 0 1em;
+    }
+    
+    section {
+        padding: 2em 2em;
+    }
+    
+    section h3 {
+        text-align: center;
+    }
+    
+    section header {
+        margin: 0 5%;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 2em 2em 2em 2em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    nav ul {
+        width: 60%;
+    }
+}
+
+
+
+/** Image alignment/size control **/
+
+figure {
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    margin-left: 0;
+}
+
+figure img {
+    text-align: center;
+    width: 100%;
+    margin: 1em .75em;
+    height: auto;
+    border: solid white .2em;
+}
+
+
+figcaption {
+    width: 100%;
+    margin-left: .75em;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+div#image-content {
+    width: 100%;
+    background-color: #fcfcfc;
+    text-align: center;
+    background-color: gray;
+}
+
+#view {
+    margin-bottom: 1em;
+}
+
+
+#image-content .back-to-top {
+    font-weight: 300;
+    text-shadow: 1px 1px 2px black;
+    margin-right: 2em;
+}
+
+#image-content .back-to-top a:hover {
+    color: white !important;
+}
+
+div#image-content footer {
+    padding-top: 0;
+    margin-left: 10%;
+}
+
+/** Video content sizing **/
+
+video {
+    width: 50%;
+    height: auto;
+    margin-top: 1em;
+}
+
+
+/** Mobile image sizing **/
+
+@media only screen and (max-width:1024px) {
+    figure {
+        width: 75%;
+    }
+    figcaption {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    
+    figure {
+        width: 90%;
+        margin: 1em;
+    }
+    
+    figcaption {
+        margin-top: .5em;
+        margin-left: 0;
+        font-size: 125%;
+    }
+    
+    figcaption#timpanogas {
+        font-size: 125%;
+    }
+    
+    #images img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    
+    video {
+        width: 90%;
+    }
+    
+    div#image-content footer {
+    margin: 0 0 0 0;
+}
+}
